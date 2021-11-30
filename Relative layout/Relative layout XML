@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="130dp"
+        android:background="@color/black"
+
+        >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/kisspng_logo_transparency_netflix_television_adobe_illustr_netflix_icon_png_image_free_download_searchpng_com_5d42d8d1619055_5509061715646619693996">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/transparent_bold_seo_and_marketing_outline_icon_magnifying_gla_5fcf5106efaf08_2068563616074222149818">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/netflix_user">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="-20dp"
+            android:layout_marginTop="84dp"
+            android:src="@drawable/transparent_down_arrow_icon_download_icon_pointers_icon_5fbca061adc320_6053184016061973457117">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-370dp"
+            android:layout_marginTop="75dp"
+            android:gravity="center_vertical"
+            android:text=" TV Shows        Movies        Categories"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="580dp"
+        android:layout_marginTop="131dp"
+        android:background="@color/black"
+
+        >
+        <ImageView
+            android:layout_width="390dp"
+            android:layout_height="370dp"
+            android:src="@drawable/_1xhtjo4e5l"
+
+            >
+        </ImageView>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/plus"
+            android:layout_marginLeft="-350dp"
+            android:layout_marginTop="400dp"
+
+            >
+        </ImageView>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/video_player"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="400dp"
+
+            >
+        </ImageView>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/info"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="400dp"
+
+            >
+        </ImageView>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:text="My List                 Play                    Info"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="-330dp"
+            android:layout_marginTop="430dp"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Trending Now "
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="-350dp"
+            android:layout_marginTop="470dp"
+            >
+
+        </TextView>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:src="@drawable/transparent_down_arrow_icon_download_icon_pointers_icon_5fbca061adc320_6053184016061973457117"
+            android:layout_marginLeft="-20dp"
+            android:layout_marginTop="475dp"
+            >
+
+        </ImageView>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Action Movies "
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="-150dp"
+            android:layout_marginTop="520dp"
+            >
+
+        </TextView>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:src="@drawable/transparent_down_arrow_icon_download_icon_pointers_icon_5fbca061adc320_6053184016061973457117"
+            android:layout_marginLeft="-20dp"
+            android:layout_marginTop="525dp"
+            >
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="95dp"
+        android:background="@color/black"
+        android:layout_marginTop="712dp"
+
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/house_black_silhouette_without_door"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+
+            >
+        </ImageView>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/cinema"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+
+            >
+        </ImageView>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/download_to_storage_drive"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+
+            >
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="           Home    Coming Soon  Downloads"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="-330dp"
+            android:layout_marginTop="35dp"
+            >
+
+        </TextView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+   

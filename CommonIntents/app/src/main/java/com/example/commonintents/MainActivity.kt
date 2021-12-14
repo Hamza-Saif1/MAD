@@ -48,7 +48,13 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(intent)
     }
-
+    fun openWifiSettings() {
+        val intent = Intent(Settings.ACTION_WIFI_SETTINGS)
+        if (intent.resolveActivity(packageManager) != null) {
+            startActivity(intent)
+        }
+    }
+    
     fun quitApp() {
         this@MainActivity.finish()
         exitProcess(0)
